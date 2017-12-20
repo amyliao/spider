@@ -108,7 +108,7 @@ def spider(area, fangxing, urls):
             for key1, val1 in fangxing.items():
                 url = str(u)+ str(key)+'/'+ str(key1)+'/'
                 time.sleep(20)
-                print('End:' + '\t' +time.ctime())
+                #print('End:' + '\t' +time.ctime())
                 content_a = urllib.request.urlopen(url).read()
                 print(type(content_a))
                 content_a = content_a.decode('UTF-8', 'ignore') #解码utf-8，忽略其中有异常的编码，仅显示有效的编码

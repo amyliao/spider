@@ -8,7 +8,7 @@
             "type": "shell",
             "command": "",
             "windows":{
-                "command":"C:\\Users\\yflia\\AppData\\Local\\Programs\\Python\\Python36-32\\python.exe shanghai_lianjia.py"
+                "command":"C:\\Users\\yflia\\AppData\\Local\\Programs\\Python\\Python36-32\\python.exe lianjia_hefei_plus.py"
             },
             "group":"test",
             "presentation":{
