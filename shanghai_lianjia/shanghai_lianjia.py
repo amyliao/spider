@@ -17,7 +17,6 @@
 # PRIMARY KEY (`id`)
 # ) ENGINE=MyISAM AUTO_INCREMENT=31 DEFAULT CHARSET=gbk;
 
-
 import urllib.request #导入整个模块
 import io, sys, string #import同时导入多个模块，可以使用逗号分隔
 import time, re
@@ -116,7 +115,7 @@ def spider(area, fangxing, urls):
                 print(content_a)
                 # soup = BeautifulSoup(contentA,'html.parser') #创建BeautifulSoup对象,使用内置Python标准库解析器
                 # for content3 in soup.select('.house-lst-page-box'):#通过css类名查找
-                #     #print(content3)
+                #     #pr   int(content3)
                 #     searchObj = re.search(r'totalPage.*.,', str(content3))
                 #     if searchObj:
                 #        #print(searchObj.group())
